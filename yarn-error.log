@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/benedictgreen/.nvm/versions/node/v10.17.0/bin/node /Users/benedictgreen/.yarn/releases/yarn-1.17.3.js add jest
+
+PATH: 
+  /Users/benedictgreen/.nvm/versions/node/v10.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/benedictgreen/Development/codewars/package.json: Unexpected string in JSON at position 167
+      at JSON.parse (<anonymous>)
+      at /Users/benedictgreen/.yarn/releases/yarn-1.17.3.js:1150:57
+      at Generator.next (<anonymous>)
+      at step (/Users/benedictgreen/.yarn/releases/yarn-1.17.3.js:310:30)
+      at /Users/benedictgreen/.yarn/releases/yarn-1.17.3.js:321:13
+
+npm manifest: 
+  {
+    "name": "codewars",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node $KATA/index.js",
+      "test": "jest test"
+      "buildProject": "./buildProject.sh"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
